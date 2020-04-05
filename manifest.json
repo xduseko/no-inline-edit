@@ -3,6 +3,7 @@
   "name": "No Inline Edit",
   "version": "1.0",
   "description": "Disable Jira inline-edit feature",
+  "homepage_url": "https://github.com/xduseko/no-inline-edit",
   "web_accessible_resources": [
     "page.js"
   ],
