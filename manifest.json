@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "No Inline Edit",
+  "version": "1.0",
+  "description": "Disable Jira inline-edit feature",
+  "web_accessible_resources": [
+    "page.js"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.atlassian.net/*"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
